@@ -12,7 +12,8 @@ class View {
 
         if($params != null) {
             foreach($params as $param) {
-                $this->$param = $param;
+
+                $this->$param = htmlspecialchars($param);
             }
         }
 

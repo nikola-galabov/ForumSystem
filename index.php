@@ -2,6 +2,7 @@
 session_start();
 
 include('/config/appConfig.php');
+include('/core/Database.php');
 include('/core/View.php');
 $urlParts = preg_split('/\//', $_SERVER['REQUEST_URI'], 3, PREG_SPLIT_NO_EMPTY);
 
