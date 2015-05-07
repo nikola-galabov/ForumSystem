@@ -7,13 +7,12 @@ class View {
 
         $this->controllerName = $this->getControllerName();
         array_key_exists('pageTitle', $params) ?
-            $this->pageTitle = $this->escape($params['pageTitle']):
+            $this->pageTitle = htmlspecialchars($params['pageTitle']):
             $this->pageTitle = $this->controllerName;
 
         if($params != null) {
-            foreach($params as $param) {
-
-                $this->$param = htmlspecialchars($param);
+            foreach($params as $key => $value) {
+                $this->$key = $value;
             }
         }
 
@@ -32,10 +31,10 @@ class View {
         include($this->filePath);
     }
 
-    function escape($str) {
+    function escapeAndPrint($str) {
         $escapedStr = htmlspecialchars($str);
 
-        return $escapedStr;
+        echo($escapedStr);
     }
 
     private function getControllerName() {

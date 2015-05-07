@@ -5,13 +5,13 @@ abstract class BaseModel {
     protected $table;
     protected $limit;
 
-    function __construct($table, $limit = 50) {
+    function __construct($table, $limit = PageSize) {
         $this->db = Database::Instance();
         $this->table = $table;
         $this->limit = $limit;
     }
 
-    function getAll($columns = "*", $conditions = array()) {
-        $query = "SELECT $columns FROM $this->table";
-    }
+//    function getAll($columns = "*", $conditions = array()) {
+//        $query = "SELECT $columns FROM $this->table";
+//    }
 }

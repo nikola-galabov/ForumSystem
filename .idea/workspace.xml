@@ -22,73 +22,7 @@
     <favorites_list name="ForumSystem" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="View.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/View.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="18" selection-start="209" selection-end="209" vertical-scroll-proportion="15.038462" vertical-offset="527" max-vertical-offset="1088">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseModel.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/BaseModel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="41" selection-start="187" selection-end="187" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="374">
-              <folding>
-                <marker date="1430994342425" expanded="true" signature="336:371" placeholder="SELECT $colu..$this-&gt;table&#10;            &#10;            WHERE..." />
-                <marker date="1430994342425" expanded="true" signature="336:369" placeholder="SELECT $colu..$this-&gt;table WHERE..." />
-                <marker date="1430994342425" expanded="true" signature="336:369" placeholder="SELECT $colu..." />
-                <marker date="1430994342425" expanded="true" signature="336:369" placeholder="SELECT $colu..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsersModel.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/UsersModel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="134" selection-start="1246" selection-end="1246" vertical-scroll-proportion="0.68248177" vertical-offset="204" max-vertical-offset="799">
-              <folding>
-                <marker date="1431000490520" expanded="true" signature="402:453" placeholder="SELECT `user..." />
-                <marker date="1431000490520" expanded="true" signature="402:488" placeholder="SELECT COUNT..." />
-                <marker date="1431000490520" expanded="true" signature="855:949" placeholder="INSERT INTO ..." />
-                <marker date="1431000490520" expanded="true" signature="855:949" placeholder="INSERT INTO ..." />
-                <marker date="1431000490520" expanded="true" signature="855:963" placeholder="INSERT INTO ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsersController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/UsersController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="60" selection-start="473" selection-end="481" vertical-scroll-proportion="-9.807693" vertical-offset="51" max-vertical-offset="663">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/Users/register.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="26" selection-start="1217" selection-end="1217" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="561">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="68" selection-start="662" selection-end="667" vertical-scroll-proportion="-6.5384617" vertical-offset="272" max-vertical-offset="833">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -100,22 +34,28 @@
       <list>
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/views/del.html" />
-        <option value="$PROJECT_DIR$/views/layouts/footer.php" />
-        <option value="$PROJECT_DIR$/config/appConfig.php" />
         <option value="$PROJECT_DIR$/controllers/UserController.php" />
-        <option value="$PROJECT_DIR$/core/View.php" />
-        <option value="$PROJECT_DIR$/views/layouts/header.php" />
         <option value="$PROJECT_DIR$/views/Users/register.php" />
         <option value="$PROJECT_DIR$/views/Users/login.php" />
+        <option value="$PROJECT_DIR$/core/Database.php" />
+        <option value="$PROJECT_DIR$/models/UserModel.php" />
+        <option value="$PROJECT_DIR$/controllers/BaseController.php" />
+        <option value="$PROJECT_DIR$/models/UsersModel.php" />
+        <option value="$PROJECT_DIR$/core/View.php" />
+        <option value="$PROJECT_DIR$/views/layouts/header.php" />
+        <option value="$PROJECT_DIR$/public/styles.css" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/views/Home/index.php" />
-        <option value="$PROJECT_DIR$/core/Database.php" />
-        <option value="$PROJECT_DIR$/models/BaseModel.php" />
-        <option value="$PROJECT_DIR$/models/UserModel.php" />
         <option value="$PROJECT_DIR$/controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/controllers/BaseController.php" />
         <option value="$PROJECT_DIR$/controllers/UsersController.php" />
-        <option value="$PROJECT_DIR$/models/UsersModel.php" />
+        <option value="$PROJECT_DIR$/public/scripts/pagination.js" />
+        <option value="$PROJECT_DIR$/views/Questions/index.php" />
+        <option value="$PROJECT_DIR$/views/layouts/footer.php" />
+        <option value="$PROJECT_DIR$/models/BaseModel.php" />
+        <option value="$PROJECT_DIR$/controllers/QuestionsController.php" />
+        <option value="$PROJECT_DIR$/models/QuestionsModel.php" />
+        <option value="$PROJECT_DIR$/config/appConfig.php" />
+        <option value="$PROJECT_DIR$/views/layouts/pagination.php" />
       </list>
     </option>
   </component>
@@ -188,24 +128,6 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ForumSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ForumSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -221,7 +143,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -267,6 +189,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ForumSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ForumSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -281,6 +217,7 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -311,8 +248,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -320,7 +257,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -371,55 +308,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="11" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="16" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="137" selection-end="137" vertical-scroll-proportion="0.24242425" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/Users/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="7" selection-start="448" selection-end="448" vertical-scroll-proportion="0.3030303" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/appConfig.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="29" selection-start="205" selection-end="205" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Home/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/View.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="209" selection-end="209" vertical-scroll-proportion="15.038462" vertical-offset="527" max-vertical-offset="1088">
           <folding />
         </state>
       </provider>
@@ -431,63 +326,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="68" selection-start="662" selection-end="667" vertical-scroll-proportion="-6.5384617" vertical-offset="272" max-vertical-offset="833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="5" selection-start="177" selection-end="177" vertical-scroll-proportion="0.18888889" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/BaseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="28" selection-start="120" selection-end="120" vertical-scroll-proportion="0.18181819" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/BaseModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="41" selection-start="187" selection-end="187" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="374">
-          <folding>
-            <marker date="1430994342425" expanded="true" signature="336:371" placeholder="SELECT $colu..$this-&gt;table&#10;            &#10;            WHERE..." />
-            <marker date="1430994342425" expanded="true" signature="336:369" placeholder="SELECT $colu..$this-&gt;table WHERE..." />
-            <marker date="1430994342425" expanded="true" signature="336:369" placeholder="SELECT $colu..." />
-            <marker date="1430994342425" expanded="true" signature="336:369" placeholder="SELECT $colu..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/UsersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="60" selection-start="473" selection-end="481" vertical-scroll-proportion="-9.807693" vertical-offset="51" max-vertical-offset="663">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/Users/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="26" selection-start="1217" selection-end="1217" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="561">
+        <state line="25" column="26" selection-start="1217" selection-end="1217" vertical-scroll-proportion="0.75757575" vertical-offset="0" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/UsersModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="134" selection-start="1246" selection-end="1246" vertical-scroll-proportion="0.68248177" vertical-offset="204" max-vertical-offset="799">
+        <state line="20" column="34" selection-start="690" selection-end="690" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="646">
           <folding>
-            <marker date="1431000490520" expanded="true" signature="402:453" placeholder="SELECT `user..." />
-            <marker date="1431000490520" expanded="true" signature="402:488" placeholder="SELECT COUNT..." />
-            <marker date="1431000490520" expanded="true" signature="855:949" placeholder="INSERT INTO ..." />
-            <marker date="1431000490520" expanded="true" signature="855:949" placeholder="INSERT INTO ..." />
-            <marker date="1431000490520" expanded="true" signature="855:963" placeholder="INSERT INTO ..." />
+            <marker date="1431002250784" expanded="true" signature="-1:-1" placeholder="SELECT `user..." />
+            <marker date="1431002250784" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..." />
+            <marker date="1431002250784" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1431002250784" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1431002250784" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="11" selection-start="170" selection-end="170" vertical-scroll-proportion="0.14480409" vertical-offset="0" max-vertical-offset="587">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="6" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.75757575" vertical-offset="119" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="41" selection-start="716" selection-end="716" vertical-scroll-proportion="0.3939394" vertical-offset="272" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="38" selection-start="534" selection-end="534" vertical-scroll-proportion="0.56666666" vertical-offset="51" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="20" selection-start="83" selection-end="89" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="7" selection-start="180" selection-end="180" vertical-scroll-proportion="0.1574074" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/pagination.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="412" selection-end="412" vertical-scroll-proportion="0.37777779" vertical-offset="0" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/QuestionsModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="302" selection-end="302" vertical-scroll-proportion="0.3939394" vertical-offset="0" max-vertical-offset="612">
+          <folding>
+            <marker date="1431033400647" expanded="true" signature="-1:-1" placeholder="Select COUNT..questions..." />
+            <marker date="1431033400647" expanded="true" signature="-1:-1" placeholder="SELECT title..$this-&gt;table as..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/appConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="21" selection-start="232" selection-end="232" vertical-scroll-proportion="0.21212122" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Questions/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="45" selection-start="1696" selection-end="1696" vertical-scroll-proportion="1.0" vertical-offset="217" max-vertical-offset="969">
+          <folding>
+            <marker date="1431024695209" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="26" selection-start="2704" selection-end="2704" vertical-scroll-proportion="1.0958188" vertical-offset="51" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/QuestionsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="18" selection-start="441" selection-end="445" vertical-scroll-proportion="0.40328467" vertical-offset="0" max-vertical-offset="548">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="25" selection-start="1409" selection-end="1409" vertical-scroll-proportion="0.75757575" vertical-offset="510" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/BaseModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="1" selection-start="391" selection-end="391" vertical-scroll-proportion="0.4848485" vertical-offset="0" max-vertical-offset="561">
+          <folding />
         </state>
       </provider>
     </entry>

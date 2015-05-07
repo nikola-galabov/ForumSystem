@@ -26,17 +26,8 @@ class UsersModel extends BaseModel {
             "INSERT INTO $this->table (username, password, email, firstName, lastName)
             VALUES (?, ?, ?, ?, ?)");
 
-        if ($insertStatement) {
-        }
-        else {
-            printf("Errormessage: %s\n", $this->db->error);
-            die;
-        }
         $insertStatement->bind_param("sssss", $user['username'], $user['password'], $user['email'], $user['first-name'], $user['last-name']);
 
         $insertStatement->execute();
-        $result = $insertStatement->error;
-        var_dump($result);
-        die;
     }
 }

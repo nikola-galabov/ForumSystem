@@ -13,13 +13,13 @@ class UsersController extends BaseController {
             View::make(__FUNCTION__);
         } else {
             $user = $_POST;
-           // try {
+            try {
                 $this->model->addUser($user);
-            //} catch(Exception $ex){
+            } catch(Exception $ex){
                 return $this->redirectToUrl('/users/register');
-            //}
+            }
 
-            $this->redirectToUrl('/home/index');
+            $this->redirectToUrl('/questions/index');
         }
     }
 
@@ -28,7 +28,7 @@ class UsersController extends BaseController {
             View::make(__FUNCTION__);
         } else {
             // TODO login...
-            $this->redirectToUrl('/Home/index');
+            $this->redirectToUrl('/questions/index');
         }
     }
 }

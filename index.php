@@ -28,7 +28,7 @@ if(class_exists($controllerName)) {
 }
 
 if(method_exists($controller, $action)) {
-    $controller->$action($params);
+    call_user_func_array(array($controller, $action), $params);
     die();
 } else {
     die('Action with name ' . $action . ' does not exist in ' . $controllerName);
