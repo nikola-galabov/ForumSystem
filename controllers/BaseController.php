@@ -2,6 +2,7 @@
 
 abstract class BaseController {
     protected $requestMethod;
+    protected $model;
 
     function __construct() {
         $this->requestMethod = $_SERVER['REQUEST_METHOD'];

@@ -2,12 +2,24 @@
 
 class UsersController extends BaseController {
 
+    function __construct() {
+        parent::__construct();
+        $this->model = new UsersModel();
+    }
+
     function register() {
+
         if($this->requestMethod == 'GET') {
             View::make(__FUNCTION__);
         } else {
-            // TODO Registering...
-            $this->redirectToUrl('/Home/index');
+            $user = $_POST;
+           // try {
+                $this->model->addUser($user);
+            //} catch(Exception $ex){
+                return $this->redirectToUrl('/users/register');
+            //}
+
+            $this->redirectToUrl('/home/index');
         }
     }
 
