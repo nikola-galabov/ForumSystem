@@ -197,7 +197,7 @@ textarea {
     margin-left: 0;
 }
 
-.comment {
+.comment, #comment-form{
     margin-bottom: 10px;
     border: 2px solid darkgray;
     border-top: 1px solid gray;
@@ -206,6 +206,13 @@ textarea {
     border-top-right-radius: 40px;
     -moz-border-radius-topright: 40px;
     -moz-border-radius-bottomleft: 40px;
+}
+
+#comment-form {
+    display: none;
+    background-color: #ffffff;
+    padding: 20px;
+
 }
 /*END Question VIEW*/
 

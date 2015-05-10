@@ -31,7 +31,8 @@ class QuestionsController extends BaseController {
             'question' => $question[0],
             'comments' => $this->model->getCommentsForQuestion($id),
             'questionTags' => $tags,
-            'user' => $this->user['username']
+            'user' => $this->user['username'],
+            'userId' => $this->user['username']
         );
 
         View::make($this->name, __FUNCTION__, $params);

@@ -21,13 +21,13 @@
 
                 <div class="meta-data-container">
                     <div class="meta-data">
-                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-user" data-aria-hidden="true"></span>
                         <span>
                             <?php $this->escapeAndPrint($question['username']); ?>
                         </span>
                     </div>
                     <div class="meta-data">
-                        <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-calendar" data-aria-hidden="true"></span>
                         <span>
                             <?php
                                 $date = date_create($question['published']);
@@ -36,7 +36,7 @@
                         </span>
                     </div>
                     <div class="meta-data">
-                        <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-pencil" data-aria-hidden="true"></span>
                         <span>
                             <?php $this->escapeAndPrint($question['category']); ?>
                         </span>
@@ -48,7 +48,6 @@
                 <div class="question-views-comments">
                     <p>Views: <span><?php $this->escapeAndPrint($question['views']); ?></span></p>
                     <p>Comments: <span><?php $this->escapeAndPrint($question['comments']); ?></span></p>
-                    <p>Last comment: <span>asd</span></p>
                 </div>
             </div>
 

@@ -4,9 +4,9 @@
         <h2>Categories:</h2>
         <ul class="list-group list-unstyled">
             <?php foreach($this->categories as $category): ?>
-                <a href="/questions/categories/<?php $this->escapeAndPrint($category['category_id']); ?>">
-                    <li class="list-group-item"> <?php $this->escapeAndPrint($category['name']); ?> </li>
-                </a>
+
+                <li> <a class="list-group-item" href="/questions/categories/<?php $this->escapeAndPrint($category['category_id']); ?>"><?php $this->escapeAndPrint($category['name']); ?> </a></li>
+
             <?php endforeach; ?>
         </ul>
     </div>
@@ -15,7 +15,7 @@
         <h2>Most popular tags:</h2>
         <ul class="list-group list-unstyled list-inline">
             <?php foreach($this->tags as $tag): ?>
-                <a href="/questions/tags/<?php $this->escapeAndPrint($tag['tag_id']); ?>"><li class="list-group-item"><?php $this->escapeAndPrint($tag['name']); ?></li></a>
+                <li class="list-group-item"><a href="/questions/tags/<?php $this->escapeAndPrint($tag['tag_id']); ?>"><?php $this->escapeAndPrint($tag['name']); ?></a></li>
             <?php endforeach; ?>
         </ul>
     </div>

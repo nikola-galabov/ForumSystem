@@ -3,24 +3,24 @@
         <div class="question-title-details">
             <h2>
                 <a href="/questions/view/<?php $this->escapeAndPrint($this->question['question_id']) ?>">
-                    <?php $this->escapeAndPrint($this->question['title']) ?>
+                    <?php $this->escapeAndPrint($this->question['title']); ?>
                 </a>
             </h2>
             <p class="question-details">
             <span class="detail-group">
-                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-user" data-aria-hidden="true"></span>
                 <span>
                     <?php $this->escapeAndPrint($this->question['username']); ?>
                 </span>
             </span>
             <span class="detail-group">
-                <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-pencil" data-aria-hidden="true"></span>
                 <span>
                     <?php $this->escapeAndPrint($this->question['category']); ?>
                 </span>
             </span>
             <span class="detail-group">
-                <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-calendar" data-aria-hidden="true"></span>
                 <span>
                     <?php
                     $date = date_create($this->question['published']);
@@ -73,7 +73,21 @@
         </div>
 
         <hr/>
+        <button type="button" id="make-comment" class="btn btn-default">Make a comment</button>
+        <div id="comment-form">
+            <form action="/comments/add" method="post">
+                <input name="question_id" type="hidden" value="<?php $this->escapeAndPrint($this->question['question_id']); ?>"/>
+                <input name="user_id" type="hidden" value="<?php $this->escapeAndPrint($this->userId); ?>"/>
+                <div class="form-group">
+                    <label for="text">Text:</label>
+                    <textarea class="form-control" name="content" id="text" rows="20" required="required"></textarea>
+                </div>
+                <input class="btn btn-default" type="submit"/>
+            </form>
+        </div>
     </div>
+
+
 </div>
 
 <?php
@@ -87,13 +101,13 @@ if($this->comments != null){
                 <div class="question-title-details">
                     <p class="question-details">
                         <span class="detail-group">
-                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-user" data-aria-hidden="true"></span>
                             <span>
                                 <?php $this->escapeAndPrint($comment['username']); ?>
                             </span>
                         </span>
                         <span class="detail-group">
-                            <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-calendar" data-aria-hidden="true"></span>
                             <span>
                                 <?php
                                 $date = date_create($comment['published']);

@@ -3,15 +3,15 @@
         <input name="user_id" type="hidden" value="<?php $this->escapeAndPrint($this->userId); ?>"/>
         <div class="form-group">
             <label for="title">Title</label>
-            <input type="text" class="form-control" id="title" name="title" />
+            <input type="text" class="form-control" id="title" name="title" required="required"/>
         </div>
         <div class="form-group">
             <label for="content">Content:</label>
-            <textarea class="form-control" name="content" id="content" data-value="null"></textarea>
+            <textarea class="tinymce" name="content" id="content" rows="20" required="required"></textarea>
         </div>
         <div class="form-group">
             <label for="category">Category:</label>
-            <select id="category" name="category" class="form-control" >
+            <select id="category" name="category" class="form-control" required="required">
                 <?php foreach($this->categories as $category): ?>
                     <option value="<?php $this->escapeAndPrint($category['category_id']); ?>">
                         <?php $this->escapeAndPrint($category['name']); ?>

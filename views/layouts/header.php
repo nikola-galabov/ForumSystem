@@ -31,7 +31,7 @@
         <?php
         } else { ?>
             <div class="user">
-                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-user" data-aria-hidden="true"></span>
                 <span><?php $this->escapeAndPrint($this->user); ?></span>
 
                 <form method="post" action="/users/logout"><input class="btn-link" type="submit" value="logout"/></form>

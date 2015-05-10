@@ -21,4 +21,12 @@
 
     document.documentElement.style.display = 'block';
 
+    var $form = $('#comment-form');
+    var $showForm = $('#make-comment');
+
+    $showForm.click(function(){
+        $form.css('display', 'block');
+        $showForm.css('display', 'none');
+    });
+
 })();
