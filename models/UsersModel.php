@@ -19,7 +19,7 @@ class UsersModel extends BaseModel {
         $result = $statement->get_result()->fetch_assoc();
 
         if($result['users'] > 0) {
-            throw new Exception('There already exists a user with this username or email!');
+            throw new Exception('Username or email already exists!');
         }
 
         $insertStatement = $this->db->prepare(
@@ -30,4 +30,18 @@ class UsersModel extends BaseModel {
 
         $insertStatement->execute();
     }
+
+    function login($username, $password) {
+        $statement = $this->db->prepare("SELECT user_id, username, password FROM users WHERE username = ?");
+        $statement->bind_param("s", $username);
+        $statement->execute();
+        $result = $statement->get_result()->fetch_assoc();
+
+        if(password_verify($password, $result['password'])) {
+            return $result['user_id'];
+        }
+
+        return false;
+    }
+
 }

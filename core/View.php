@@ -3,9 +3,9 @@ class View {
     private $pageTitle;
     private $controllerName;
 
-    function __construct($viewName, $params = array()) {
+    function __construct($controller, $viewName, $params = array()) {
 
-        $this->controllerName = $this->getControllerName();
+        $this->controllerName = $controller;
         array_key_exists('pageTitle', $params) ?
             $this->pageTitle = htmlspecialchars($params['pageTitle']):
             $this->pageTitle = $this->controllerName;
@@ -16,15 +16,22 @@ class View {
             }
         }
 
+        $this->filePath = "views/". $this->controllerName . "/$viewName.php";
 
-        $this->filePath = "/views/". $this->controllerName . "/$viewName.php";
+        // sidebar
+        $categories = new CategoriesModel();
+        $this->categories = $categories->get('category_id, name');
+        $tags = new TagsModel();
+        $this->tags = $tags->getMostPopularTags();
     }
 
     function renderView() {
-        include("/views/layouts/header.php");
+        $name = DEFAULT_SIDEBAR;
+        include("views/layouts/header.php");
+        include("views/layouts/$name.php");
         $this->renderPartialView();
 
-        include("/views/layouts/footer.php");
+        include("views/layouts/footer.php");
     }
 
     function renderPartialView() {
@@ -37,22 +44,23 @@ class View {
         echo($escapedStr);
     }
 
-    private function getControllerName() {
-        //var_dump(debug_backtrace());
-        $class = debug_backtrace()[3]['class'];
-        $name = substr($class, 0, strlen($class) - 10);
+    static function make($controller, $viewName, $params = array(), $isPartial = false) {
 
-        return $name;
-    }
-
-    static function make($viewName, $params = array(), $isPartial = false) {
-
-        $instance = new View($viewName, $params);
+        $instance = new View($controller, $viewName, $params);
 
         if($isPartial) {
             return $instance->renderPartialView();
         }
 
         return $instance->renderView();
+    }
+
+    function makePagination($params = array()) {
+
+        foreach($params as $key => $value) {
+            $this->$key = $value;
+        }
+
+        include('views/layouts/pagination.php');
     }
 }
